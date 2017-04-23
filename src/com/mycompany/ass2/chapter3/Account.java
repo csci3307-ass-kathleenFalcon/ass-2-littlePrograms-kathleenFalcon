@@ -7,7 +7,7 @@ package com.mycompany.ass2.chapter3;
  * @author Kathleen Falcon
  * 
  */
-public class Account {	//Program_3_11
+public class Account {	 //Program_3_11
 	
 	private String name;
 	private double balance;
