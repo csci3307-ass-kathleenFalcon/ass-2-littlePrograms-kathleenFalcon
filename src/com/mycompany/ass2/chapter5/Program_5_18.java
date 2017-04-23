@@ -29,7 +29,10 @@ public class Program_5_18 {
 			dollars = (int)pennies / 100;
 		    cents = (int)pennies % 100;
 		    
-		    System.out.printf("%4d %15d.%d%n", year, dollars, cents);		
+		    if (cents < 10)
+		    	System.out.printf("%4d%18d.0%d%n", year, dollars, cents);
+		    else
+		    	System.out.printf("%4d%18d.%d%n", year, dollars, cents);		
 		}
 	}
 
