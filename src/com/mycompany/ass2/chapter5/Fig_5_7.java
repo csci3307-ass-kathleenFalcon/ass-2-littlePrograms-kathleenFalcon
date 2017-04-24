@@ -22,6 +22,7 @@ public class Fig_5_7 {
 		} while (counter <= 10);
 		
 		System.out.println();
+
 	}
 
 }
